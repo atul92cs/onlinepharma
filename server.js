@@ -1,5 +1,5 @@
 const express =require('express');
-const PORT=8080||process.ENV.PORT;
+const PORT=process.env.PORT||8080;
 const bodyParser=require('body-parser');
 const user=require('./routes/userFunctions');
 const admin=require('./routes/adminFunctions');
