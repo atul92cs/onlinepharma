@@ -1,6 +1,6 @@
 const sequelize=require('sequelize');
 const db=require('../config/database');
-const User=db.define('User',{
+const User=db.define('Users',{
   Name:{
     type:sequelize.STRING
   },
